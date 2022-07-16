@@ -40,6 +40,9 @@ const app = Vue.createApp({
         },
         updateImage(variantImage) {
             this.image = variantImage
+        },
+        updateCart() {
+            this.cart += 1;
         }
     }
 
