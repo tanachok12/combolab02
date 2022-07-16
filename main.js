@@ -46,6 +46,10 @@ const app = Vue.createApp({
             } else
                 this.cart[1] += 1;
         },
+        removeFromCart() {
+            this.cart.splice(0, 1, 0)
+            this.cart.splice(1, 1, 0)
+        }
     }
 
 })
