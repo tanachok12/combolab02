@@ -16,6 +16,9 @@ app.component('review-list', {
                     <br/>
                     "{{ review.review }}"
                     <br/>
+                    
+
+                    <p>Would recommend: {{ review.wouldRecommend ? "yes" : "no" }}</p>
                 </li>
             </ul>
     </div>
